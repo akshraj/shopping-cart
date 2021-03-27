@@ -15,13 +15,25 @@
             height: 100%;
         }
     }
-    .name{
+    .name,
+    .quantity,
+    .price{
         width: 23%;
     }
     .quantity{
-        width: 23%;
+        display: flex;
+
+        .arrow{
+            cursor: pointer;
+        }
+        .value{
+            margin: 0 10px;
+        }
+
     }
-    .price{
-        width: 23%;
+    
+    .remove-button{
+        cursor: pointer;
+        padding-left: 12px;
     }
 }
